@@ -1,0 +1,133 @@
+/* Reset básico */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navegação */
+#menu {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#menu ul li {
+    margin-right: 20px;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Cabeçalho das Seções */
+header.section {
+    background-color: #009688;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header.section h1 {
+    margin-bottom: 10px;
+}
+
+header.section p {
+    margin-bottom: 20px;
+}
+
+/* Seções */
+.section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.section ul li h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #007bff;
+}
+
+.section ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.section ul li a:hover {
+    text-decoration: underline;
+}
+
+.section ul li p {
+    margin: 0;
+    color: #555;
+}
+
+/* Imagens */
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+#fundo {
+    background-color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+}
+
+#fundo p {
+    margin: 0;
+}
+
+#fundo a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#fundo a:hover {
+    text-decoration: underline;
+}
